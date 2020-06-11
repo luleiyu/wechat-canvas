@@ -7,13 +7,13 @@ page {
   width: 100%;
 }
 .qrcode_btn {
-  height: 80rpx;
-  line-height: 80rpx;
+  height: 120rpx;
+  line-height: 100rpx;
   width: 90%;
   font-size: 40rpx;
   color: skyblue;
   border: 1px solid red;
   text-align: center;
-  margin: 20rpx auto;
+  margin: 100rpx auto;
   box-sizing: border-box;
 }

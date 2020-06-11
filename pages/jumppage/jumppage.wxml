@@ -2,7 +2,7 @@
 <view class="box_box">
   <navigator class="qrcode_btn" url="/pages/qrcode/index">生成二维码</navigator>
   <navigator class="qrcode_btn" url="/pages/index/index">wxml-to-canvas</navigator>
-  <navigator class="qrcode_btn" url="/pages/demo/demo">demo</navigator>
+  <navigator class="qrcode_btn" url="/pages/demo/demo">二维码结合wxml-to-canvas</navigator>
   <navigator class="qrcode_btn" url="/pages/canvas/index">canvas绘制一次海报</navigator>
   <navigator class="qrcode_btn" url="/pages/multiple/multiple">canvas绘制多次海报</navigator>
 </view>
