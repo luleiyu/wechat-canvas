@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view id="qrcode">
+    <view></view>
+  </view>
+  <view>canvas生成的图片</view>
+  <canvas style="width: 200px; height: 200px;" canvas-id="myQrcode"></canvas>
+  <button bindtap="getFields">点击我</button>
+  <view>canvas生成的图片</view>
+  <canvas style="width: 200px; height: 200px;" canvas-id="myTwoQrcode"></canvas>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+  <view>转成base64后的二维码图片</view>
+  <image src="{{imageBase64}}" mode="widthFix" style="width:80%;"></image>
+</view>

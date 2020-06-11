@@ -1,0 +1,18 @@
+<!--pages/downloadImgAndShare/downloadImgAndShare.wxml-->
+<view class="down_load_box">
+	<view class="down_sec_box">
+		<!-- <image
+      class="down_img"
+      mode="widthFix"
+      src="{{imgUrl}}"></image> -->
+		<wxml-to-canvas class="widget" width="{{750}}" height="{{1334}}"></wxml-to-canvas>
+		<!-- <wxml-to-canvas class="widget2" width="{{heightObj.windowWidth*2}}" height="{{heightObj.windowHeight*2}}"></wxml-to-canvas> -->
+	</view>
+	<!-- <image src="{{src}}" style="width: {{width}}px; height: {{height}}px"></image> -->
+	<view class="down_load_btn">
+		<view wx:if="{{showSaveBtn2}}" bindtap="extraImage" class="inner_box">
+			保存图片至本地
+		</view>
+	</view>
+</view>
+<canvas style="width:200px;height:200px" canvas-id="myQrcode"></canvas>

@@ -1,0 +1,57 @@
+/* pages/downloadImgAndShare/downloadImgAndShare.wxss */
+page {
+  height: 100%;
+  overflow: hidden;
+}
+
+.widget {
+  width: 600rpx;
+  height: 400rpx;
+}
+
+.down_load_box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #FFA70E;
+}
+
+.down_sec_box {
+  width: 100%;
+  /* transform: scale(0.5);
+  transform-origin: 0% 0%; */
+}
+
+.down_img {
+  width: 100%;
+}
+
+.down_load_btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  line-height: 120rpx;
+  height: 120rpx;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.inner_box {
+  width: 80%;
+  background: #FFA70E;
+  /* #768bff; */
+  margin: 0 auto;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  box-sizing: border-box;
+}
+
+.myCanvasCode11111 {
+  width: 200rpx;
+  height: 200rpx;
+  display: none;
+}

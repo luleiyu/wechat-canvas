@@ -1,0 +1,19 @@
+/* pages/jumppage/jumppage.wxss */
+page {
+  box-sizing: border-box;
+}
+.box_box {
+  box-sizing: border-box;
+  width: 100%;
+}
+.qrcode_btn {
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 90%;
+  font-size: 40rpx;
+  color: skyblue;
+  border: 1px solid red;
+  text-align: center;
+  margin: 20rpx auto;
+  box-sizing: border-box;
+}

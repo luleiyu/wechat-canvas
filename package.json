@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "widget-to-canvas": "^1.0.3",
+    "wxml-to-canvas": "^1.1.1"
+  }
+}

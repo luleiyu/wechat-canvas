@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/jumppage/jumppage",
+    "pages/index/index",
+    "pages/demo/demo",
+    "pages/qrcode/index",
+    "pages/canvas/index",
+    "pages/multiple/multiple"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
